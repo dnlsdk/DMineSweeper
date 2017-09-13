@@ -1,0 +1,98 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back">
+
+    <TableRow>
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_column="0"
+        android:text="time"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_column="0"
+            android:text="____"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_column="0"
+        android:text="locks"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/Timer"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_column="0"
+            android:text="000"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+
+        <ImageButton
+            android:id="@+id/Smiley"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="@drawable/smiley_button_states"
+            android:scaleType="center" />
+
+
+
+        <TextView
+            android:id="@+id/MineCount"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_column="0"
+            android:text="000"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+    </TableRow>
+
+
+    <TableLayout
+        android:id="@+id/MineField"
+        android:layout_span="4"
+        android:stretchColumns="*"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="4dip">
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_column="0"
+        android:text="000"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
+
+
+</TableLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DMineSweeper</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="difficulty">choose the difficulty</string>
+    <string name="scores">Scores (minimum time)</string>
+</resources>
